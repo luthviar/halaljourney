@@ -6,11 +6,20 @@ var parseString = require('xml2js').parseString;
 
 //var parser = new xml2js.Parser();
 
-var host = "xml5.travellanda.com";
+// var host = "xml5.travellanda.com";
+// var host2 = "xml.travellanda.com";
+var host = "xmldemo.travellanda.com";
 var port = null;
 var path = "/xmlv1";
+
+// username and password production
+// var userName = "1d30ab517dd70cdd21c0649a0c4255fd";
+// var password = "qFSVx6CUat7v";
+
+//username and password test
 var userName = "1d30ab517dd70cdd21c0649a0c4255fd";
-var password = "qFSVx6CUat7v";
+var password = "mT7C0UxRPeVn";
+
 var headerTemplate =
 	'		<Username>USERNAME</Username>' +
 	'		<Password>PASSWORD</Password>' +
